@@ -1,4 +1,4 @@
-package main.java.set.PesquisaEmSet;
+package main.java.set.Pesquisa;
 
 public class Tarefa {
     private String descricao;
