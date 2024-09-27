@@ -6,7 +6,7 @@ import java.util.List;
 
 public class OrdenacaoNumeros {
 
-    private List numerosList;
+    private List<Integer> numerosList;
 
     public OrdenacaoNumeros() {
         this.numerosList = new ArrayList<>();
