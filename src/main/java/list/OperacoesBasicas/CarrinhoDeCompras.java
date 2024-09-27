@@ -16,7 +16,7 @@ public class CarrinhoDeCompras {
     }
 
     public void removerItem(String nome){
-        List valoresRemovidos = new ArrayList<>();
+        List<Item> valoresRemovidos = new ArrayList<>();
         for (Item i: itemList){
             if(i.getNome().equals(nome)){
                 valoresRemovidos.add(i);
